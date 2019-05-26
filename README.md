@@ -4,6 +4,10 @@ Assembler for Ethereum Virtual Machine
 Simple and lightweight EVM assembler. 
 It does not import any additional dependencies
 
+### Install
+
+`npm i --save evm-assembler`
+
 ### example
 
 function `assemble` is exported
