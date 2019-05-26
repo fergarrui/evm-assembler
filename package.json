@@ -2,8 +2,7 @@
   "name": "evm-assembler",
   "version": "0.2.0",
   "description": "Ethereum Virtual Machine assembler",
-  "main": "index.js",
-  "bin": "dist/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "jest"
   },
