@@ -1,0 +1,62 @@
+{
+  "name": "evm-assembler",
+  "version": "0.0.1",
+  "description": "Ethereum Virtual Machine assembler",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fergarrui/evm-assembler.git"
+  },
+  "author": "Fernando Garcia Ruiz",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/fergarrui/evm-assembler/issues"
+  },
+  "homepage": "https://github.com/fergarrui/evm-assembler#readme",
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "statements": 0,
+        "branches": 0,
+        "functions": 0,
+        "lines": 0
+      }
+    },
+    "globals": {
+      "ts-jest": {
+        "skipBabel": true,
+        "enableTsDiagnostics": true
+      }
+    },
+    "clearMocks": true,
+    "collectCoverageFrom": [
+      "src/*/**/*.{ts,js}",
+      "!src/**/{routes,index}.{ts,js}"
+    ],
+    "modulePathIgnorePatterns": [
+      "<rootDir>/dist/",
+      "<rootDir>/node_modules/"
+    ],
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "js",
+      "json",
+      "node"
+    ],
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.13",
+    "@types/node": "^12.0.2",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.5"
+  }
+}
