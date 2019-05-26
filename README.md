@@ -2,7 +2,7 @@
 Assembler for Ethereum Virtual Machine
 
 Simple and lightweight EVM assembler. 
-It does not import any additional dependency
+It does not import any additional dependencies
 
 ### example
 
