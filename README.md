@@ -1,4 +1,5 @@
 # evm-assembler
+[![npm version](https://badge.fury.io/js/evm-assembler.svg)](https://badge.fury.io/js/evm-assembler)
 Assembler for Ethereum Virtual Machine
 
 Simple and lightweight EVM assembler. 
