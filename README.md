@@ -16,7 +16,7 @@ function `assemble` is exported
 
 ```
 assemble([
-  ['PUSH1', '69'],
+  ['PUSH1', '66'],
   ['SUB'],
   ['STOP']
 ])
@@ -24,4 +24,4 @@ assemble([
 assemble expects an array of arrays. Every element of the array is an array containing `[opcode, argument]`
 Only `PUSH` opcodes can have an argument
 
-would return: `60690300`
+would return: `60660300`
